@@ -18,6 +18,7 @@ const Atomic = () => {
 
     fetchClassicLottery();
   }, []);
+  
   return (
     <div className={styles.main}>
       <div className="flex justify-between">
