@@ -1,0 +1,28 @@
+.collapsible {
+    margin: 5px;
+  }
+  
+  .header {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .arrowDown::before {
+    content: '\25BC';
+    font-size: 20px;
+    color: rgb(15, 10, 10);
+  }
+  
+  .arrowUp::before {
+    content: '\25B2';
+    font-size: 20px;
+    color: rgb(15, 10, 10);
+  }
+  
+  .content {
+    width: 100%;
+  }
